@@ -1,0 +1,67 @@
+.sheader{
+    border: 1px solid blue;
+}
+.navflex{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center
+    
+
+}
+.smain{
+    border: 1px solid red;
+}
+.scarrusel{
+   
+    background-size: cover;
+}
+.sdiv-servicios{
+    border: 1px solid green;
+}
+.imgsize{
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat; 
+}
+.sgrupo-cards{
+    border: 1px solid purple;
+}
+.fontservicios{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10;  
+}
+.fontservicios p{
+    margin-top: 15px;
+}
+.fontcards{
+    
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10;  
+}
+/*Centra Texto en PC Web, pero no se visualiza bien en moviles
+.scard{
+   
+    margin-left: 100px;
+    margin-right: 100px;
+}*/
+.fontcards{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.fontcards h5{
+    font-size: 25px;
+    
+}
+.imgsizecard{
+    
+    background-size: cover;
+}
+.cardimg{
+    display: flex;
+    justify-content: center;
+    align-items:center
+    
+}
