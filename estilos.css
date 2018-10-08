@@ -58,6 +58,8 @@
 .imgsizecard{
     
     background-size: cover;
+    Width: 100%;
+    height: auto;
 }
 .cardimg{
     display: flex;
@@ -65,3 +67,4 @@
     align-items:center
     
 }
+
