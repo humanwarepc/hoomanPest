@@ -1,0 +1,96 @@
+/*=== Text color ===*/
+a:hover, a:focus, a:active,
+.btn-primary:hover,
+.navbar-nav.site_nav .nav-item .dropdown-menu li a:hover,
+.navbar-nav.site_nav .nav-item:last-child a.nav-link:hover,
+.card.team .card-img .card-img-overlay .social-link .btn-social:hover i,
+.btn-white,
+.icon-style-1 i,
+.pricing .card-body ul li span,
+.btn-outline-primary,
+.btn-icon:hover .text h6,
+.btn-icon:hover .text span {
+  color: #7dc616;
+}
+
+/*=== Gradient Background ===*/
+.bg-gradient,
+nav.navbar.navbar-sticky,
+.section-title-center:after,
+.section-title:after,
+.testimonial-carousel .single-item.slick-active.slick-center .testimonial-card,
+.card.card-accordion .card-header a,
+.navbar .container .collapse,
+.navbar .container .collapsing {
+  background-image: linear-gradient(45deg, #42ae13, #b5dc19);
+}
+
+.icon-style-1 i,
+.icon-style-1 .icon:before,
+.feature-tabs-aria .nav-tabs .nav-link.active,
+.feature-tabs-aria .nav-tabs .nav-item:before {
+  background-image: linear-gradient(45deg, #69be15, #91ce17);
+}
+
+/*=== Gradient Background Opacity ===*/
+.card.team .card-img .card-img-overlay {
+  background-image: linear-gradient(45deg, rgba(66, 174, 19, 0.85), rgba(181, 220, 25, 0.85));
+}
+
+/*=== Background color ===*/
+.btn-primary,
+.media-style-01:hover .icon-style-1 i,
+.slick-dots li.slick-active button,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary:not([disabled]):not(.disabled):active {
+  background-color: #7dc616;
+}
+
+::-moz-selection {
+  background-color: #7dc616;
+}
+
+::selection {
+  background-color: #7dc616;
+}
+
+::-moz-selection {
+  background-color: #7dc616;
+}
+
+/*=== Border color ===*/
+.slick-dots li.slick-active button,
+.btn-primary,
+.btn-primary:hover,
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary:not([disabled]):not(.disabled):active {
+  border-color: #7dc616;
+}
+
+/*=== SVG Icon ===*/
+.btn-icon:hover .icon .brand-icon-svg {
+  fill: #7dc616;
+}
+
+/*=== Media Queries ===*/
+@media (min-width: 480px) {
+  .navbar .container .collapse,
+  .navbar .container .collapsing {
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.site_nav .nav-item .dropdown-menu li a.active {
+    color: #7dc616;
+  }
+  .navbar .container .collapse,
+  .navbar .container .collapsing {
+    background-image: none;
+  }
+}

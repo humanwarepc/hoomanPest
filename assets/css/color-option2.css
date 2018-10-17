@@ -1,0 +1,99 @@
+/*=== Text color ===*/
+a:hover, a:focus, a:active,
+.btn-primary:hover,
+.navbar-nav.site_nav .nav-item .dropdown-menu li a:hover,
+.navbar-nav.site_nav .nav-item:last-child a.nav-link:hover,
+.card.team .card-img .card-img-overlay .social-link .btn-social:hover i,
+.btn-white,
+.btn-outline-white:hover,
+.btn-outline-white:focus,
+.btn-outline-white:active,
+.icon-style-1 i,
+.pricing .card-body ul li span,
+.btn-outline-primary,
+.btn-icon:hover .text h6,
+.btn-icon:hover .text span {
+  color: #8534ff;
+}
+
+/*=== Gradient Background ===*/
+.bg-gradient,
+nav.navbar.navbar-sticky,
+.section-title-center:after,
+.section-title:after,
+.testimonial-carousel .single-item.slick-active.slick-center .testimonial-card,
+.card.card-accordion .card-header a,
+.navbar .container .collapse,
+.navbar .container .collapsing {
+  background-image: linear-gradient(45deg, #8534ff, #f481f0);
+}
+
+.icon-style-1 i,
+.icon-style-1 .icon:before,
+.feature-tabs-aria .nav-tabs .nav-link.active,
+.feature-tabs-aria .nav-tabs .nav-item:before {
+  background-image: linear-gradient(45deg, #a248fb, #ce67f5);
+}
+
+/*=== Gradient Background Opacity ===*/
+.card.team .card-img .card-img-overlay {
+  background-image: linear-gradient(45deg, rgba(133, 52, 255, 0.85), rgba(244, 129, 240, 0.85));
+}
+
+/*=== Background color ===*/
+.btn-primary,
+.media-style-01:hover .icon-style-1 i,
+.slick-dots li.slick-active button,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary:not([disabled]):not(.disabled):active {
+  background-color: #8534ff;
+}
+
+::-moz-selection {
+  background-color: #8534ff;
+}
+
+::selection {
+  background-color: #8534ff;
+}
+
+::-moz-selection {
+  background-color: #8534ff;
+}
+
+/*=== Border color ===*/
+.slick-dots li.slick-active button,
+.btn-primary,
+.btn-primary:hover,
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary:not([disabled]):not(.disabled):active {
+  border-color: #8534ff;
+}
+
+/*=== SVG Icon ===*/
+.btn-icon:hover .icon .brand-icon-svg {
+  fill: #8534ff;
+}
+
+/*=== Media Queries ===*/
+@media (min-width: 480px) {
+  .navbar .container .collapse,
+  .navbar .container .collapsing {
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.site_nav .nav-item .dropdown-menu li a.active {
+    color: #8534ff;
+  }
+  .navbar .container .collapse,
+  .navbar .container .collapsing {
+    background-image: none;
+  }
+}
