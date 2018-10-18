@@ -148,7 +148,7 @@ a:hover, a:focus, a:active {
 }
 
 ::selection {
-  background-color: #fb8920;
+  background-color: #00a8c6;
   color: #ffffff;
 }
 
@@ -480,8 +480,8 @@ body.boxed .main-wrapper {
 /*  BG GRADIENT */
 .bg-gradient {
 
-    background: #f76240;
-    background: linear-gradient(45deg, #930c04, #ff4d4d);
+    background: #00a8c6;
+    background: linear-gradient(45deg,#00a8c6,#00a8c6 );
 }
 
 /* Overflow Hidden */
@@ -502,8 +502,8 @@ body.boxed .main-wrapper {
 ================================================== */
 /*============ 2.1 PRELOADER =============*/
 .smooth-loader-wrapper {
-  background: #f76240;
-  background: linear-gradient(45deg, #f76240, #ffaf00);
+  background: #007bff;
+  background: linear-gradient(45deg,#007bff,#007bff);
   position: fixed;
   top: 0;
   left: 0;
@@ -810,8 +810,8 @@ body.boxed .main-wrapper {
   padding: 15px 27px 15px 20px;
   line-height: 24px;
   transition: unset;
-  background: #f76240;
-  background: linear-gradient(45deg, #f76240, #ffaf00);
+  background:#00a8c6;
+  background: linear-gradient(45deg, #00a8c6, #00a8c6);
   color: #ffffff;
 }
 
@@ -1146,8 +1146,8 @@ body.boxed .main-wrapper {
   position: absolute;
   left: 0;
   bottom: 5px;
-  background: #f76240;
-  background: linear-gradient(45deg, #f76240, #ffaf00);
+  background: #00a8c6;
+  background: linear-gradient(45deg,#00a8c6, #00a8c6);
   content: "";
   width: 100px;
   height: 2px;
@@ -1170,8 +1170,8 @@ body.boxed .main-wrapper {
   position: absolute;
   left: 50%;
   bottom: 5px;
-  background: #f76240;
-  background: linear-gradient(45deg, #f76240, #ffaf00);
+  background: #00a8c6;
+  background: linear-gradient(45deg,#00a8c6,#00a8c6);
   content: "";
   width: 100px;
   height: 2px;
@@ -1622,7 +1622,7 @@ body.boxed .main-wrapper {
   line-height: 68px;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #F3F3F3;
+ 
   transition: all .5s ease-in-out;
   margin-right: 20px;
 }
@@ -1966,8 +1966,8 @@ nav.navbar.navbar-sticky {
   top: 0;
   width: 100%;
   animation-name: fadeInDown;
-  background: #f76240;
-  background: linear-gradient(45deg, #f76240, #ffaf00);
+  background:#007bff;
+  background: linear-gradient(45deg,#007bff, #007bff);
 }
 
 nav.navbar.navbar-sticky .navbar-brand .svgLogo {

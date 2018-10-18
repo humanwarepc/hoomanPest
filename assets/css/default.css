@@ -48,19 +48,19 @@ nav.navbar.navbar-sticky,
 .btn-outline-primary:focus,
 .btn-outline-primary:active,
 .btn-outline-primary:not([disabled]):not(.disabled):active {
-  background-color: #ff0000;
+  background-color: #00a8c6;
 }
 
 ::-moz-selection {
-  background-color: #ff0000;
+  background-color: #00a8c6;
 }
 
 ::selection {
-  background-color: #ff0000;
+  background-color: #00a8c6;
 }
 
 ::-moz-selection {
-  background-color: #ff0000;
+  background-color: #00a8c6;
 }
 
 /*=== Border color ===*/
@@ -72,7 +72,7 @@ nav.navbar.navbar-sticky,
 .btn-outline-primary:focus,
 .btn-outline-primary:active,
 .btn-outline-primary:not([disabled]):not(.disabled):active {
-  border-color: #fb8920;
+  border-color: #00a8c6;
 }
 
 /*=== SVG Icon ===*/
