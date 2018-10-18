@@ -1447,7 +1447,7 @@ body.boxed .main-wrapper {
 
 .feature-tabs-aria .nav-tabs .nav-link:hover {
   border-color: transparent;
-  color: #ffffff;
+  color:#007bff;
 }
 
 .feature-tabs-aria .nav-tabs .nav-link:last-child:before {
@@ -1459,7 +1459,7 @@ body.boxed .main-wrapper {
   border-color: transparent;
   background: #f86d37;
   background: linear-gradient(45deg, #f86d37, #fea409);
-  color: #ffffff;
+  color:#007bff;
 }
 
 .tab-content-aria {
