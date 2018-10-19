@@ -15,10 +15,8 @@
 }
 
 .fondo-features{
-  
-    background-image: url("img/feature.jpg");
-    background-size: cover;
-    background-position: center;
+  background: #f8f8f8;
+    
 }
 
 

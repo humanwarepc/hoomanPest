@@ -479,9 +479,8 @@ body.boxed .main-wrapper {
 
 /*  BG GRADIENT */
 .bg-gradient {
-
-    background: #00a8c6;
-    background: linear-gradient(45deg,#00a8c6,#00a8c6 );
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
 }
 
 /* Overflow Hidden */
@@ -502,8 +501,9 @@ body.boxed .main-wrapper {
 ================================================== */
 /*============ 2.1 PRELOADER =============*/
 .smooth-loader-wrapper {
-  background: #007bff;
-  background: linear-gradient(45deg,#007bff,#007bff);
+  /*background: #007bff;*/
+  /*background: linear-gradient(45deg,#007bff,#007bff);*/
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
   position: fixed;
   top: 0;
   left: 0;
@@ -810,8 +810,8 @@ body.boxed .main-wrapper {
   padding: 15px 27px 15px 20px;
   line-height: 24px;
   transition: unset;
-  background:#00a8c6;
-  background: linear-gradient(45deg, #00a8c6, #00a8c6);
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
   color: #ffffff;
 }
 
@@ -1146,8 +1146,8 @@ body.boxed .main-wrapper {
   position: absolute;
   left: 0;
   bottom: 5px;
-  background: #00a8c6;
-  background: linear-gradient(45deg,#00a8c6, #00a8c6);
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
   content: "";
   width: 100px;
   height: 2px;
@@ -1395,8 +1395,8 @@ body.boxed .main-wrapper {
 }
 
 .feature-tabs-aria .nav-tabs .nav-item:before {
-  background: #f86d37;
-  background: linear-gradient(45deg, #f86d37, #fea409);
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1457,8 +1457,8 @@ body.boxed .main-wrapper {
 
 .feature-tabs-aria .nav-tabs .nav-link.active {
   border-color: transparent;
-  background: #f86d37;
-  background: linear-gradient(45deg, #f86d37, #fea409);
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
   color:#007bff;
 }
 
@@ -1660,8 +1660,8 @@ body.boxed .main-wrapper {
   bottom: 0;
   right: 0;
   content: "";
-  background: #f76240;
-  background: linear-gradient(45deg, #f76240, #ffaf00);
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
   visibility: hidden;
   opacity: 0;
   transition: all .5s ease-in-out;
@@ -1676,8 +1676,8 @@ body.boxed .main-wrapper {
   transition: all .5s ease-in-out;
   position: relative;
   z-index: 1000;
-  background: #f86d37;
-  background: linear-gradient(45deg, #f86d37, #fea409);
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1880,7 +1880,7 @@ button.slick-prev:active, button.slick-prev:focus, button.slick-prev:hover,
 button.slick-next:active,
 button.slick-next:focus,
 button.slick-next:hover {
-  background-color: #e46f04;
+  background-color: #00a8c6;
 }
 
 @media (min-width: 768px) {
@@ -1966,8 +1966,10 @@ nav.navbar.navbar-sticky {
   top: 0;
   width: 100%;
   animation-name: fadeInDown;
-  background:#007bff;
-  background: linear-gradient(45deg,#007bff, #007bff);
+  /*background:#007bff;
+  background: linear-gradient(45deg,#007bff, #007bff);*/
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
 }
 
 nav.navbar.navbar-sticky .navbar-brand .svgLogo {
@@ -1976,6 +1978,30 @@ nav.navbar.navbar-sticky .navbar-brand .svgLogo {
 
 nav.navbar.navbar-sticky .nav-item a.nav-link {
   padding-left: 20px;
+}
+
+.navbar-brand
+{
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+.navbar-brand>image
+{
+  width: 100px;
+}
+
+@media (min-width: 600px) {
+  .navbar-brand
+{
+  position: relative;
+  top: 0;
+  left: 30px;
+}
+.navbar-brand>image
+{
+  width: inherit;
+}
 }
 
 @media (min-width: 768px) {
@@ -2035,8 +2061,8 @@ nav.navbar > .container {
 
 .navbar .container .collapse,
 .navbar .container .collapsing {
-  background: #f86d37;
-  background: linear-gradient(45deg, #f86d37, #fea409);
+  background: #477a85;
+  background: linear-gradient(45deg,#00a8c6,#477a85 );
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -2754,4 +2780,14 @@ nav.navbar > .container {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
+}
+
+.centrado
+{
+  text-align: center;
+}
+
+.logo-footer
+{
+  width: 311px;
 }
