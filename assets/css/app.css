@@ -1336,7 +1336,7 @@ body.boxed .main-wrapper {
   -khtml-opacity: 1;
   opacity: 1;
   visibility: visible;
-  transform: scale(1);
+  
 }
 
 .card.team:hover .card-img .card-img-overlay .social-link .btn-social {
@@ -2677,8 +2677,8 @@ nav.navbar > .container {
 }
 
 .testimonial-carousel .single-item.slick-active.slick-center .testimonial-card {
-  background: #f76240;
-  background: linear-gradient(45deg, #f76240, #ffaf00);
+  background: linear-gradient(45deg,#00a8c6,#00a8c6);
+  background: linear-gradient(45deg,#00a8c6,#00a8c6);
   cursor: default;
 }
 
