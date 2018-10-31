@@ -1353,9 +1353,9 @@ body.boxed .main-wrapper {
 }
 
 .testimonial-card img {
-  width: 70px;
+  width: 100px;
   margin: auto;
-  border-radius: 50%;
+
 }
 
 .testimonial-card .card-body .card-text {
@@ -1417,10 +1417,12 @@ body.boxed .main-wrapper {
   }
 }
 
+/*
 .feature-tabs-aria .nav-tabs .nav-item:hover:before {
   visibility: visible;
   opacity: 1;
 }
+*/
 
 .feature-tabs-aria .nav-tabs .nav-link {
   border-radius: 0;
@@ -1459,7 +1461,7 @@ body.boxed .main-wrapper {
   border-color: transparent;
   background: #477a85;
   background: linear-gradient(45deg,#00a8c6,#477a85 );
-  color:#007bff;
+  color:white;
 }
 
 .tab-content-aria {

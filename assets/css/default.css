@@ -32,7 +32,7 @@ nav.navbar.navbar-sticky,
 .icon-style-1 .icon:before,
 .feature-tabs-aria .nav-tabs .nav-link.active,
 .feature-tabs-aria .nav-tabs .nav-item:before {
-    background-image: linear-gradient(45deg, #ffffff, #ffffff);
+    background-image: linear-gradient(45deg,#00a8c6,#477a85 );
 }
 
 /*=== Gradient Background Opacity ===*/
