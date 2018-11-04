@@ -64,19 +64,19 @@
 				<div class="collapse navbar-collapse" id="navbarContent">
 					<ul class="navbar-nav ml-auto site_nav scrolling" >
 						<li class="nav-item">
-							<a class="nav-link " href="#screenshot"> Sucursales</a>
+							<a class="nav-link " href="#faqs"> Sucursales</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#price">¿Quiénes Somos?</a>
+							<a class="nav-link " href="#whats">¿Quiénes Somos?</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#team">Servicios</a>
+							<a class="nav-link " href="#feature">Servicios</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link " href="#team">Equipo</a>
 						</li>
 
-						<a class="btn btn-outline-white" href="#">Contacto</a>
+						<a class="btn btn-outline-white" href="#contacto">Contacto</a>
 					</ul>
 				</div>
 			</div>
@@ -106,7 +106,7 @@
 			</div>
 		</div>
 		<div class="banner-image wow zoomIn">
-			<img class="img-fluid" src="assets/img/banner/banner-image.png" alt="Image">
+			<img class="img-fluid bcurva" src="assets/img/banner/banner-image.jpg" alt="Image">
 		</div>
 	</section>
 
@@ -114,7 +114,10 @@
 	<!-- ====================================
 	———	AMAZING FEATURES
 	===================================== -->
-	<section class="section-padding bg-white" >
+	<section >
+			<img src="assets/img/banner/fondo-hooman.jpg" class="img-fluid" alt="Responsive image">
+	</section>
+	<section class="section-padding bg-white">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-6 col-12 col-md-6">
@@ -260,7 +263,7 @@
 	<!-- ====================================
 	———	FEATURES SECTION
 	===================================== -->
-	<section class="section-padding bg-white" >
+	<section class="section-padding bg-white" id="whats" >
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
 				<div class="col-md-6 col-12 wow tafFadeInLeft">
@@ -399,7 +402,7 @@
 			<div class="single-item ">
 				<div class="card team">
 					<div class="card-img">
-						<img src="assets/img/team/team-1.jpg" alt="Card image cap">
+						<img src="assets/img/team/team-1.png" alt="Card image cap">
 						<div class="card-img-overlay">
 					  </div>
 					</div>
@@ -412,7 +415,7 @@
 			<div class="single-item team">
 				<div class="card team">
 					<div class="card-img">
-						<img src="assets/img/team/team-2.jpg" alt="Card image cap">
+						<img src="assets/img/team/team-2.png" alt="Card image cap">
 					</div>
 				  <div class="card-body">
 					<a><h5>Lic. Yadira Monroy Rocha</h5></a>
@@ -423,7 +426,7 @@
 			<div class="single-item team">
 				<div class="card team">
 					<div class="card-img">
-						<img src="assets/img/team/team-3.jpg" alt="Card image cap">
+						<img src="assets/img/team/team-3.png" alt="Card image cap">
 						<div class="card-img-overlay">
 					  </div>
 					</div>
@@ -436,7 +439,7 @@
 			<div class="single-item team">
 				<div class="card team">
 					<div class="card-img">
-						<img class="card-img" src="assets/img/team/team-4.jpeg" alt="Card image cap">
+						<img class="card-img" src="assets/img/team/team-4.png" alt="Card image cap">
 						<div class="card-img-overlay">
 					  </div>
 					</div>
@@ -537,7 +540,7 @@
 
 					</div>
 				</div>
-				<div class="col-12 col-md-6 wow tafFadeInUp">
+				<div class="col-12 col-md-6 wow tafFadeInUp" id="contacto">
 					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflhYioeEvCe_JaaOpJ14EmifvVHL20cp-6yCeyriJDcNaDMA/viewform?embedded=true" width="640" height="1132" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 				</div>
 			</div>
@@ -555,7 +558,7 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12">
-              <a class="footer-logo" href="#">
+              <a class="footer-logo" href="index.html">
 					<img src="assets/img/logo.png" alt="" class="logo-footer">
               </a>
             </div>
@@ -631,6 +634,27 @@
 			bottom: -50px;
 		}
 	}
+
+
+
+@font-face {
+  font-family: 'SF';
+  /* Antes de descargar el archivo, le decimos al buscador
+  que intente buscar en local la fuente con nombre
+  Cabin, Cabin Regular o Cabin-Regular */
+  src: local('SFCompactText-Bold'),
+       local('SF-Pro-Display-Regular'),
+       local('Cabin-Regular'),
+       url(SFCompactText-Bold.otf) format('otf');
+}
+
+.cabin {
+    font-family: 'Cabin';
+}
+
+
+
+
 	</style>
 
   </body>

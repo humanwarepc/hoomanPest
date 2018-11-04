@@ -480,7 +480,7 @@ body.boxed .main-wrapper {
 /*  BG GRADIENT */
 .bg-gradient {
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
 }
 
 /* Overflow Hidden */
@@ -503,7 +503,7 @@ body.boxed .main-wrapper {
 .smooth-loader-wrapper {
   /*background: #007bff;*/
   /*background: linear-gradient(45deg,#007bff,#007bff);*/
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
   position: fixed;
   top: 0;
   left: 0;
@@ -811,7 +811,7 @@ body.boxed .main-wrapper {
   line-height: 24px;
   transition: unset;
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
   color: #ffffff;
 }
 
@@ -1147,7 +1147,7 @@ body.boxed .main-wrapper {
   left: 0;
   bottom: 5px;
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
   content: "";
   width: 100px;
   height: 2px;
@@ -1171,7 +1171,7 @@ body.boxed .main-wrapper {
   left: 50%;
   bottom: 5px;
   background: #00a8c6;
-  background: linear-gradient(45deg,#00a8c6,#00a8c6);
+  background: linear-gradient(45deg,#00748a,#00acc8);
   content: "";
   width: 100px;
   height: 2px;
@@ -1396,7 +1396,7 @@ body.boxed .main-wrapper {
 
 .feature-tabs-aria .nav-tabs .nav-item:before {
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8 );
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1460,7 +1460,7 @@ body.boxed .main-wrapper {
 .feature-tabs-aria .nav-tabs .nav-link.active {
   border-color: transparent;
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
   color:white;
 }
 
@@ -1663,7 +1663,7 @@ body.boxed .main-wrapper {
   right: 0;
   content: "";
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
   visibility: hidden;
   opacity: 0;
   transition: all .5s ease-in-out;
@@ -1679,7 +1679,7 @@ body.boxed .main-wrapper {
   position: relative;
   z-index: 1000;
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1971,7 +1971,7 @@ nav.navbar.navbar-sticky {
   /*background:#007bff;
   background: linear-gradient(45deg,#007bff, #007bff);*/
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
 }
 
 nav.navbar.navbar-sticky .navbar-brand .svgLogo {
@@ -2064,7 +2064,7 @@ nav.navbar > .container {
 .navbar .container .collapse,
 .navbar .container .collapsing {
   background: #477a85;
-  background: linear-gradient(45deg,#00a8c6,#477a85 );
+  background: linear-gradient(45deg,#00748a,#00acc8);
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -2679,8 +2679,8 @@ nav.navbar > .container {
 }
 
 .testimonial-carousel .single-item.slick-active.slick-center .testimonial-card {
-  background: linear-gradient(45deg,#00a8c6,#00a8c6);
-  background: linear-gradient(45deg,#00a8c6,#00a8c6);
+  background: linear-gradient(45deg,#00748a,#00acc8);
+  background: linear-gradient(45deg,#00748a,#00acc8);
   cursor: default;
 }
 
