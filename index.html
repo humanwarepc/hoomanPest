@@ -5,11 +5,17 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="./slick/slick.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
 
 	<!-- SITE TITLE -->
 	<title>Hooman</title>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TD5C8W3');</script>
+	<!-- End Google Tag Manager -->
 
 	<!-- PLUGINS CSS STYLE -->
 	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -58,6 +64,12 @@
 
 </head>
 <body id="body" class="up-scroll ">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TD5C8W3"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) --> 
+
+	
 	<!-- ====================================
 	——— PRELOADER
 	===================================== -->
@@ -137,9 +149,7 @@
 	<!-- ====================================
 	———	AMAZING FEATURES
 	===================================== -->
-	<section >
-			<img src="assets/img/banner/fondo-hooman.jpg" class="img-fluid" alt="Responsive image">
-	</section>
+	
 	<section class="section-padding bg-white">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -592,19 +602,19 @@
 										  <div class="col-sm-6">
 											<div class="form-check SF-Pro-Text-Regular">
 													<input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="inlineCheckbox1" value="Diagnóstico">
-													<label class="form-check-label" for="inlineCheckbox1">Diagnóstico</label>
+													<label class="form-check-label" for="inlineCheckbox1">Reclutamiento</label>
 											</div>
 											<div class="form-check SF-Pro-Text-Regular">
 													<input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="inlineCheckbox2" value="Análisis">
-													<label class="form-check-label" for="inlineCheckbox2">Análisis</label>
+													<label class="form-check-label" for="inlineCheckbox2">Outsourcing</label>
 											</div>
 											<div class="form-check SF-Pro-Text-Regular">
 													<input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="inlineCheckbox3" value="Propuesta">
-													<label class="form-check-label" for="inlineCheckbox3">Propuesta</label>
+													<label class="form-check-label" for="inlineCheckbox3">Consultoría</label>
 											</div>	  
 											<div class="form-check SF-Pro-Text-Regular">
 													<input class="form-check-input" type="checkbox" id="inlineCheckbox4" name="inlineCheckbox4" value="Generación de valor">
-													<label class="form-check-label" for="inlineCheckbox4">Generación de valor</label>
+													<label class="form-check-label" for="inlineCheckbox4">Gestión de Nómina</label>
 											</div>
 										 </div>
 										</div>
@@ -711,7 +721,15 @@
 	}
 
 
-
+	@media (max-width: 768px)
+	{
+		.form-check-label {
+			padding-left: 3.25rem;
+		}
+		.form-check-input {
+			margin-left: 20px;
+		}
+	}
 
 
 
@@ -741,22 +759,32 @@
 			else{
 				//alert('Please Enter Business Email Address');
 				swal("Escribe el correo correctamente");
-				
-				
+				isValid =false;
+				return;
 			}
+
+			var servicio = ($("#inlineCheckbox1").is(':checked') ? $("#inlineCheckbox1").val()+', ' : '') +
+								($("#inlineCheckbox2").is(':checked') ? $("#inlineCheckbox2").val()+', ' : '') +
+								($("#inlineCheckbox3").is(':checked') ? $("#inlineCheckbox3").val()+', ' : '') +
+								($("#inlineCheckbox4").is(':checked') ? $("#inlineCheckbox4").val()+', ' : '');
+			
+
 			if(isValid)
 			{
 				var jqxhr = $.ajax({
-					url: url+"?name="+$("#name").val()+"&email="+$("#email").val()+"&message="+$("#message").val()+"&phone="+$("#phone").val(),
+					url: url+"?name="+$("#name").val()+"&email="+$("#email").val()+"&message="+$("#message").val()+"&phone="+$("#phone").val()+"&servicio="+servicio,
 					method: "GET",
-					dataType: "json"
-				}).success(
-					//alert("Registrado")
-					swal("Gracias por escribir", "Tu solicitud ha sido enviada", "success")
-				);
-			}
-			})
+					dataType: "json",
+					success: function(data){
+						//alert("Registrado")
+						swal("Gracias por escribir", "Tu solicitud ha sido enviada", "success");
+						// se limpia el formulario
+						$("#form-contact")[0].reset();
+					}
+				})
+			}})
 	</script>
-  </body>
+</body>
+
 </html>
 
