@@ -43,3 +43,18 @@ background-color:#00a5c2;
 .font-boot{
     font-size: 2vw;
 }
+
+/* Ajuste para el footer */
+@media (max-width: 1208px)
+{
+    .footer-margin
+    {
+        margin-bottom: 547px !important;
+    }
+}
+
+.btn-icon
+{
+    min-width: 250px !important;
+    justify-content: center;
+}
