@@ -848,6 +848,21 @@
 					method: "GET",
 					dataType: "json",
 					success: function(data){
+
+						/* Correo */
+						$.post("contact.php", {
+								user_fname: $("#name").val(),
+								user_email: $("#email").val(),
+								user_numero: $("#phone").val(),
+								user_message: $("#message").val(),
+								user_servicios: servicio
+							}, function(result){
+							
+							var obj = jQuery.parseJSON(result);
+							console.log(obj.type);
+
+						});
+
 						//alert("Registrado")
 						swal("Gracias por escribir", "Tu solicitud ha sido enviada", "success");
 						// se limpia el formulario
@@ -857,5 +872,5 @@
 			}})
 	</script>
 </body>
-</html>
+</html>: 
 
