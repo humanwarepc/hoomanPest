@@ -43,3 +43,42 @@ background-color:#00a5c2;
 .font-boot{
     font-size: 2vw;
 }
+
+/* Ajuste para el footer */
+@media (max-width: 1208px)
+{
+    .footer-margin
+    {
+        margin-bottom: 547px !important;
+    }
+}
+
+.btn-icon
+{
+    min-width: 250px !important;
+    justify-content: center;
+}
+
+@media (min-width: 768px) and (max-width: 997px)
+{
+    .banner-text-content
+    {
+        margin-top: 95px! important;
+    }
+    .banner-text-content h1
+    {
+        font-size: 26px !important;
+    }
+}
+
+@media (min-width: 997px) and (max-width: 1220px)
+{
+    .banner-text-content
+    {
+        margin-top: 95px !important;
+    }
+    .banner-text-content h1
+    {
+        font-size: 35px !important; 
+    }
+}

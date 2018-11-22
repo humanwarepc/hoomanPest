@@ -100,7 +100,7 @@
 							<a class="nav-link SF-Pro-Text-Bold " href="#faqs"> Sucursales</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link SF-Pro-Text-Bold " href="#whats">¿Quiénes Somos?</a>
+							<a class="nav-link SF-Pro-Text-Bold " href="#whats">Desafíos cumplidos</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link SF-Pro-Text-Bold" href="#feature">Servicios</a>
@@ -130,7 +130,7 @@
 				<div class="row vh100 justify-content-center ">
 					<div class="col-md-10">
 						<div class="banner-text-content text-center ">
-							<h1 class="SF-Pro-Text-Bold font-boot">A PARTIR DE HOY TIENE UN GRUPO DE ALIADOS QUE LE DARÁN EL VALOR QUE
+							<h1 class="SF-Pro-Text-Bold font-boot">GRUPO DE ALIADOS QUE LE DARÁN EL VALOR QUE
 									SU ORGANIZACIÓN MERECE.</h1>
 							<p class="SF-Pro-Text-Regular">Sabemos que su meta es cumplir sus objetivos de negocio y para nosotros es de vital
 								importancia cumplirla, es por eso que somos ese apoyo con expertise que le
@@ -849,6 +849,21 @@
 					method: "GET",
 					dataType: "json",
 					success: function(data){
+
+						/* Correo */
+						$.post("contact.php", {
+								user_fname: $("#name").val(),
+								user_email: $("#email").val(),
+								user_numero: $("#phone").val(),
+								user_message: $("#message").val(),
+								user_servicios: servicio
+							}, function(result){
+							
+							var obj = jQuery.parseJSON(result);
+							console.log(obj.type);
+
+						});
+
 						//alert("Registrado")
 						swal("Gracias por escribir", "Tu solicitud ha sido enviada", "success");
 						// se limpia el formulario
@@ -858,5 +873,5 @@
 			}})
 	</script>
 </body>
-</html>
+</html>: 
 
