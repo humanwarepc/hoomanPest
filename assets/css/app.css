@@ -2333,7 +2333,7 @@ nav.navbar > .container {
 }
 
 .banner-content {
-  min-height: 415px;
+  min-height: 100px;
   max-height: 415px;
 }
 
@@ -2367,21 +2367,21 @@ nav.navbar > .container {
 
 @media (min-width: 768px) {
   .banner-content {
-    min-height: 670px;
+    min-height: 100px;
     max-height: 735px;
   }
 }
 
 @media (min-width: 992px) {
   .banner-content {
-    min-height: 730px;
+    min-height: 100px;
     max-height: 730px;
   }
 }
 
 @media (min-width: 1200px) {
   .banner-content {
-    min-height: 840px;
+    min-height: 110px;
     max-height: 845px;
   }
 }
@@ -2467,7 +2467,7 @@ nav.navbar > .container {
     display: block;
     position: relative;
     margin: 0 auto;
-    margin-top: -290px;
+    margin-top: 0px;
     text-align: center;
   }
 }

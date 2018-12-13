@@ -110,3 +110,8 @@ background-color:#00a5c2;
         padding-bottom: 220px !important;
     }
 }
+
+.sizeseccion{
+    min-height: 840px;
+    max-height: 845px;
+}
