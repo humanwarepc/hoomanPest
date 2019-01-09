@@ -508,11 +508,14 @@
 								($("#inlineCheckbox3").is(':checked') ? $("#inlineCheckbox3").val()+', ' : '') +
 								($("#inlineCheckbox4").is(':checked') ? $("#inlineCheckbox4").val()+', ' : '');
 			
+			var fecha = new Date();
+					("Día: "+fecha.getDate()+"\nMes: "+(fecha.getMonth()+1)+"\nAño: "+fecha.getFullYear());
+					("Hora: "+fecha.getHours()+"\nMinuto: "+fecha.getMinutes()+"\nSegundo: "+fecha.getSeconds()+"\nMilisegundo: "+fecha.getMilliseconds());
 
 			if(isValid)
 			{
 				var jqxhr = $.ajax({
-					url: url+"?name="+$("#name").val()+"&email="+$("#email").val()+"&message="+$("#message").val()+"&phone="+$("#phone").val()+"&servicio="+servicio,
+					url: url+"?name="+$("#name").val()+"&email="+$("#email").val()+"&message="+$("#message").val()+"&phone="+$("#phone").val()+"&servicio="+servicio+"&fecha="+fecha,
 					method: "GET",
 					dataType: "json",
 					success: function(data){
